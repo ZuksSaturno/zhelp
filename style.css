@@ -159,19 +159,24 @@ header>nav>a:hover{
 
 
 nav{
-    display: inline-block;
-    margin-left: 400px;
+    /**display: inline-block;**/
+    position: relative;
+    margin-left: 41%;
+    top: -50%;
 }
 main{
     background-color: aliceblue;
-    height: 625px;
-    width: 700px;
+    min-width: 260px;
+    max-width: 700px;
+    min-height: 545px;
     margin:auto;
     margin-bottom: 20px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 4px 6px #1a38615e;
+    padding-bottom: 10px;
    
 }
+
 footer{
     background-color: var(--cor1) ;
     height: 40px;
