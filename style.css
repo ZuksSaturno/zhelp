@@ -202,10 +202,15 @@ hr#home{
 #maintxt{
     display: inline-block;
     background-color: #1a65ce27;
-    vertical-align: -60px;
+    vertical-align: 300%;
     border: solid 1px #4c535e71;
     border-radius: 10px;
     
+}
+#lista{
+    list-style-position: inside;
+    list-style-type: '\1F4C1\00a0\00a0';
+    columns: 2;
 }
 
 #paragrafu{
