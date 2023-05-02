@@ -202,7 +202,7 @@ hr#home{
 #maintxt{
     display: inline-block;
     background-color: #1a65ce27;
-    vertical-align: 300%;
+    vertical-align: 400%;
     border: solid 1px #4c535e71;
     border-radius: 10px;
     
@@ -213,10 +213,10 @@ hr#home{
     columns: 2;
 }
 
-#paragrafu{
-    width: 400px;  
+#paragrafu{ 
     text-indent: 15px;
     text-align: justify;
+    text-align: center;
     
 }
 footer{
