@@ -222,11 +222,12 @@ hr#home{
     padding: 10px 5px;
 
 }
-#ppsec{
+#abaoutme{
     padding: 0px 0px 20px;
 }
 #projetos{
-    background-color: #2F64AD;
+    background-image: linear-gradient(to right,#21487c,#295da1);
+    
     height: 400px;
     box-shadow:-0.5px -2px 5px  #83ACE6;
 }
@@ -236,12 +237,34 @@ hr#home{
     padding-top: 25px;
     text-shadow: 1px 2px 1px rgb(233, 218, 201);
 }
+.projediv{
+ display: inline-block;
+ min-width: 300px;
+ min-height: 90px;
+ max-width: 300px;
+ max-height: 90px;
+ background-color: rgb(33, 39, 44);
+ border-radius: 10px;
+ box-shadow: 1px 1px 10px #00ffb3;
+ margin: 9px 0px 6px 30px;
+ content-visibility: hidden;
+}
+.projediv:hover{
+    box-shadow:4px 3px 2px #83ACE6;
+    transition: 0.1s;
+    content-visibility: inherit;
+    background-color: aliceblue;
+}
+#div5{
+    margin-left: 28%;
+}
 footer{
     background-color: var(--cor1) ;
     height: 40px;
     color: aliceblue;
     bottom: 0px;
     display:block;
+    
     
 }
 footer > section > article > a {
