@@ -241,9 +241,10 @@ hr#home{
  
  display: inline-block;
  min-width: 300px;
- min-height: 90px;
+ min-height: 80px;
  max-width: 300px;
- max-height: 90px;
+ max-height: 80px;
+ padding: 5px;
  background-color: rgb(227, 236, 243);
  border-radius: 10px;
  box-shadow: 1px 1px 10px #00ffb3;
@@ -251,19 +252,71 @@ hr#home{
  /**content-visibility: hidden;**/
 }
 .projediv:hover{
-    box-shadow:4px 3px 2px #83ACE6;
+    box-shadow:1px 1px 10px #95e90e;
     transition: 0.1s;
     content-visibility: inherit;
     background-color: aliceblue;
 }
-.projetdiv>h2{
-  
+.projediv >h2{
+  vertical-align: 25px;
+  color: #2c3036;
 }
 .projediv >img{
     
 }
 #div5{
     margin-left: 28%;
+}
+#div5>img{
+    width: 80px; 
+    height: 80px;
+}
+#div4>img{
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+}
+#div3>img{
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+}
+#div2>img{
+    display: inline-block;
+    width: 65px; 
+    height: 70px;
+}
+#div1>img{
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+}
+#secreto{
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    background-color: #ff3c0033;
+    border-radius: 10px;
+}
+#secreto >article>h1{
+ font-size: 2em;
+ color: #f70505;
+ text-align: center;
+ 
+}
+#secreto2{
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    background-color: #003cff33;
+    border-radius: 10px;
+}
+#secreto2>article>p{
+    font-size: 1em;
+}
+#lisecreta{
+    list-style-position: inside;
+    margin: 20px;
 }
 footer{
     background-color: var(--cor1) ;
