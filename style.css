@@ -238,22 +238,29 @@ hr#home{
     text-shadow: 1px 2px 1px rgb(233, 218, 201);
 }
 .projediv{
+ 
  display: inline-block;
  min-width: 300px;
  min-height: 90px;
  max-width: 300px;
  max-height: 90px;
- background-color: rgb(33, 39, 44);
+ background-color: rgb(227, 236, 243);
  border-radius: 10px;
  box-shadow: 1px 1px 10px #00ffb3;
  margin: 9px 0px 6px 30px;
- content-visibility: hidden;
+ /**content-visibility: hidden;**/
 }
 .projediv:hover{
     box-shadow:4px 3px 2px #83ACE6;
     transition: 0.1s;
     content-visibility: inherit;
     background-color: aliceblue;
+}
+.projetdiv>h2{
+  
+}
+.projediv >img{
+    
 }
 #div5{
     margin-left: 28%;
